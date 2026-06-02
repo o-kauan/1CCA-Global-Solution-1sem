@@ -178,7 +178,7 @@ int main(){
                 printf("\n=== STATUS DA MISSAO ===\n");
 
                 if (inserir_dados == 0) {
-                    printf("Insira os dados para ter informações sobre o status da missão.\n");
+                    printf("Insira os dados para ter informacoes sobre o status da missao.\n");
                 } else {
                     printf("Comunicacao: ");
                     if (comunicacao_status == 1) printf("Ativa\n"); else printf("Inativa\n");
