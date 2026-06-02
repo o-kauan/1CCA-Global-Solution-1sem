@@ -1,5 +1,51 @@
 # Sistema de Monitoramento de Missão Espacial
 
+## Instruções para Execução do programa
+
+Siga as diretrizes abaixo para baixar o código-fonte diretamente do repositório público e executá-lo em seu ambiente local:
+
+### Passo 1: Clonagem do Repositório
+
+Abra o terminal de comandos de sua preferência e realize a clonagem utilizando a URL do repositório:
+
+```bash
+git clone https://github.com/o-kauan/1CCA-Global-Solution-1sem.git
+
+```
+
+### Passo 2: Navegação até o Diretório
+
+Entre na pasta criada pelo Git para garantir que os comandos de compilação rodem no mesmo nível do arquivo principal:
+
+```bash
+cd 1CCA-Global-Solution-1sem
+
+```
+
+### Passo 3: Compilação do Código-Fonte
+
+Utilize o compilador GCC para processar o arquivo `main.c` e gerar o binário executável do sistema:
+
+```bash
+gcc main.c -o sistema_espacial
+
+```
+
+### Passo 4: Execução do Programa
+
+Inicie a aplicação de acordo com o sistema operacional utilizado:
+
+* **Ambientes Windows:**
+```bash
+sistema_espacial.exe
+
+```
+
+* **Ambientes Linux ou macOS:**
+```bash
+./sistema_espacial
+
+```
 ## 1. Introdução
 
 Este documento descreve a arquitetura lógica do Sistema de Monitoramento de Missão Espacial desenvolvido em Linguagem C. O software opera como um núcleo de processamento em tempo real, projetado para simular o diagnóstico e a mitigação de falhas em uma espaçonave. Através de algoritmos de validação de fluxo, mapeamento binário de estados e busca em matrizes multidimensionais, o sistema assegura a consistência dos dados operacionais e automatiza tomadas de decisão críticas.
